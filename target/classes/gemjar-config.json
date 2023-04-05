@@ -1,0 +1,20 @@
+{
+  "environment": "prod",
+  "project_name": "GEMBOOKAUTOMATION",
+  "glueCode": "com.qa.gembook",
+  "tags": "@demo123987",
+  "email_report": "y",
+  "email_to": "karan.thakur@geminisolutions.com",
+  "report_name": "GembookTestReport",
+  "sub_id": "test_id",
+  "jewel_user1": "karanthakur",
+  "jewel_bridge_token1": "5a4d0c92-bfed-4500-a09b-85e7ac98ea941676631482410",
+  "enter_point": "https://apis.gemecosystem.com/enter-point",
+  "tagName": "@demo123",
+  "prod": {
+    "browserName": "grid",
+    "launchUrl": "https://gembook.geminisolutions.com/#/",
+    "browserTimeout": 100,
+    "chromeOptions" :["--incognito"]
+  }
+}
