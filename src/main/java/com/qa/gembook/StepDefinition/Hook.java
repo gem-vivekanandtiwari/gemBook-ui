@@ -40,6 +40,7 @@ public class Hook {
         WebDriver driver = remoteURL != null ? new RemoteWebDriver(new URL(remoteURL), options) : new RemoteWebDriver(options);
         setWebDriver(driver);
         DriverAction.launchUrl(GemJarUtils.getGemJarConfigData("launchUrl"));
+        DriverAction.maximizeBrowser();
        // DriverAction.maximizeToDefaultBrowserSize();
         DriverAction.setImplicitTimeOut(Long.parseLong(GemJarGlobalVar.implicitTime));
         DriverAction.setPageLoadTimeOut(Long.parseLong(GemJarGlobalVar.pageTimeout));
