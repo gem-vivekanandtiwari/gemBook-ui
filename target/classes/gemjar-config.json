@@ -14,6 +14,7 @@
   "prod": {
     "browserName": "grid",
     "launchUrl": "https://gembook.geminisolutions.com/#/",
+    "launchUrl1": "https://mymis.geminisolutions.com/",
     "browserTimeout": 100,
     "chromeOptions" :["--incognito"]
   }
