@@ -33,6 +33,7 @@ public class Hook {
         if (remoteURL == null) {
             remoteURL = GemJarConstants.DEFAULT_REMOTE_WEBDRIVER_URL;
         }
+        System.out.println(remoteURL);
         FirefoxOptions options = new FirefoxOptions();
         options.setHeadless(true);
         options.addArguments("--incognito");
